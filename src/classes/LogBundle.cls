@@ -56,7 +56,7 @@ global with sharing class LogBundle {
                     theErrorEmail.setToAddresses(toAddresses);
                     theErrorEmail.setReplyTo(theLogSettings.Error_Email_Reply_To__c);
                     theErrorEmail.setSenderDisplayName(theLogSettings.Error_Email_Sender_Name__c);
-                    theErrorEmail.setSubject('Espresso Billing Error');
+                    theErrorEmail.setSubject('Error');
                     theErrorEmail.setBccSender(false);
                     theErrorEmail.setUseSignature(false);
                     theErrorEmail.setPlainTextBody(thisLog.Name + ' - ' + thisLog.Message__c);

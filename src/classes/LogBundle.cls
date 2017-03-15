@@ -1,6 +1,4 @@
 /*
-* Created By: MakePosotive - Mohammed Haseeb 
-* Craeted Date:  20 - October - 2011
 * This class is generic class for creating theLogs
 */
 global with sharing class LogBundle {
